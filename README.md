@@ -17,6 +17,20 @@ Justin 收藏与整理的 Agent Skills（可直接丢进 Claude Code / Cursor �
 - **转写贴：** [LinearUncle](https://x.com/LinearUncle/status/2105506429788422409)（引用下面原帖）
 - **灵感原帖：** [Robin Ebers](https://x.com/robinebers/status/2105309987983745060)（针对他自己项目的口语提示词，完整版在[首条回复](https://x.com/robinebers/status/2105309990835933399)）
 
+#### 效果示意
+
+通用版实测（来自 [LinearUncle 帖里的图](https://x.com/LinearUncle/status/2105506429788422409)）：可交互流程演示 + 业务对象说明。
+
+![LinearUncle 架构与运行流程地图 · 流程演示](skills/project-architecture-map/assets/linearuncle-demo-1.jpg)
+
+![LinearUncle 架构与运行流程地图 · 业务对象](skills/project-architecture-map/assets/linearuncle-demo-2.jpg)
+
+原作者项目上的画布观感（来自 [Robin 演示视频](https://x.com/robinebers/status/2105309987983745060) 截帧；完整短视频见 [`robinebers-demo.mp4`](skills/project-architecture-map/assets/robinebers-demo.mp4)）：
+
+![Robin Attention Machine architecture map](skills/project-architecture-map/assets/robinebers-demo-frame.jpg)
+
+![Robin Upload a file 流程高亮](skills/project-architecture-map/assets/robinebers-demo-frame-2.jpg)
+
 #### 关系（顺着两帖就懂）
 
 Robin 先发了「对我自己这个大 App 说的一段话」当提示词，让 Opus 画出可缩放、可点的架构画布。LinearUncle **引用该帖**，说明原作者提示词是**项目特化**的，于是让 AI **改写成通用版**，放到 Gist；本仓第一个 skill 用的就是这份通用版，可以。
@@ -39,4 +53,4 @@ Robin 先发了「对我自己这个大 App 说的一段话」当提示词，让
 
 ## 许可与归属
 
-各 skill 正文归属原作者；本仓仅作收藏与 `SKILL.md` 封装。若原作者要求调整，开 issue 或联系 Justin。
+各 skill 正文归属原作者；本仓仅作收藏与 `SKILL.md` 封装。效果图来自上述公开帖，仅作示意。若原作者要求调整，开 issue 或联系 Justin。
